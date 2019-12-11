@@ -40,17 +40,6 @@ image_search function return a promise that resolves to array of complete result
 ```javascript
 image_search({ query: "birds", moderate: true }).then(results=>console.log(results))
 ```
-image_search_generator function is a async generator that yield promise of result set on each iteration. Useful for large iterations. Please check the node version compatability for this syntax.
-
-```javascript
-async function main(){
-    for await (let resultSet of image_search_generator({ query: "birds", moderate: true ,iterations :4})){
-      console.log(resultSet)
-    }
-  }
-  
-main().catch(console.log);
-```
 
 Please feel free to report any issues or feature requests.
 
