@@ -1,6 +1,5 @@
-const { image_search , image_search_generator } = require('./src/api')
+const { image_search } = require('./src/api')
 
 module.exports = {
-    image_search,
-    image_search_generator
+    image_search
 }

@@ -20,7 +20,7 @@
   ],
   "author": "Kshitij Mhatre (https://github.com/KshitijMhatre)",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "axios": "^0.18.0"
   }
 }

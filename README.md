@@ -1,3 +1,10 @@
+# This is a fork of KshitijMhatre's [duckduckgo-images-api](https://github.com/KshitijMhatre/duckduckgo-images-api)
+
+Changes: 
+* Removed the generator to make the package Node 8-compatible
+* Made `axios` a peer dependency 
+ 
+
 # duckduckgo-images-api
 
 A lightweight node package to programmatically obtain image search results from DuckDuckGo search engine.
